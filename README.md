@@ -18,3 +18,11 @@ but I wanted practice implementing both of these features
 - I use the pytorch library for the implementation of this project.
 - This is the link to the data I will be using: https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv
 - My NN usually achieves an R value of at least .9, but it depends on the data that is being predicted and how the weights are initialized.
+
+### Cifar10autoencoder
+-The goal of this project is to create a convolutional neural network autoencoder for the CIFAR10 dataset, with a pre-specified architecture.
+-Here is a link to the dataset: https://www.cs.toronto.edu/~kriz/cifar.html.
+-I use the pytorch library for the implementation of this project.
+-This is my unique solution to a project created for Mike X Cohen's "A Deep Understanding of Deep Learning" class
+-Much of the code is adapted from this course.
+-Images that have been pushed through the autoencoder can be seen at the bottom of the file.
