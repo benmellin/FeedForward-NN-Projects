@@ -10,7 +10,7 @@
 - I use the pytorch library for the implementation of this project.
 - My NN performs with around 80% accuracy after training on the dev and test sets.
 - I believe that accuracy could be higher if I simplified some of the metaparamaters of this network (remove node dropout and L2 regularization),
-but I wanted practice implementing both of these features
+but I wanted practice implementing both of these features.
 
 ### Missing_data_pred
 - The goal of this project is to create a deep learning network that predicts values for missing data.
@@ -23,7 +23,7 @@ but I wanted practice implementing both of these features
 - The goal of this project is to create a convolutional neural network autoencoder for the CIFAR10 dataset, with a pre-specified architecture.
 - Here is a link to the dataset: https://www.cs.toronto.edu/~kriz/cifar.html.
 - I use the pytorch library for the implementation of this project.
-- This is my unique solution to a project created for Mike X Cohen's "A Deep Understanding of Deep Learning" class
+- This is my unique solution to a project created for Mike X Cohen's "A Deep Understanding of Deep Learning" class.
 - Much of the code is adapted from this course.
 - Images that have been pushed through the autoencoder can be seen at the bottom of the file.
 - To best preserve the integrity of this notebook, I've attached the link below instead of posting it here directly:
@@ -32,9 +32,10 @@ https://colab.research.google.com/drive/1mj6U9gSiMDmXaoDH4HbwY_ngvN9GHOBa?usp=sh
 ### Classify Cifar 10
 - The goal of this project is to create a convolutional neural network to classify
 images in the CIFAR 10 data set, which contains 60,000 32x32 color images of 10 different classes.
+- My code correctly classifies the images in the test set 81% of the time.
 - Here is a link to the dataset: https://www.cs.toronto.edu/~kriz/cifar.html
 - I use the pytorch library for the implementation of this project.
-- This is my unique solution to a project created for Mike X Cohen's "A Deep Understanding of Deep Learning Class"
-- Much of the code is adapted from this course
+- This is my unique solution to a project created for Mike X Cohen's "A Deep Understanding of Deep Learning" class.
+- Much of the code is adapted from this course.
 - To best preserve the integrity of this notebook, I've attached the link below instead of posting it here directly:
 https://colab.research.google.com/drive/1971Y4V0eTrZaIhJsBzaKNyLXa_sd8uOB?usp=sharing
