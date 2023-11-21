@@ -26,5 +26,5 @@ but I wanted practice implementing both of these features
 - This is my unique solution to a project created for Mike X Cohen's "A Deep Understanding of Deep Learning" class
 - Much of the code is adapted from this course.
 - Images that have been pushed through the autoencoder can be seen at the bottom of the file.
-- The Jupyter Notebook wasn't rendering well when uploaded to github, so here is a link to the Collab file:
+- To best preserve the integrity of this notebook, I've attached the link below instead of posting it here directly:
 https://colab.research.google.com/drive/1mj6U9gSiMDmXaoDH4HbwY_ngvN9GHOBa?usp=sharing
