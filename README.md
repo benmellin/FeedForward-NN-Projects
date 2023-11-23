@@ -42,7 +42,7 @@ https://colab.research.google.com/drive/1971Y4V0eTrZaIhJsBzaKNyLXa_sd8uOB?usp=sh
 
 ### Classify FMNIST
 - The goal of this project is to create a convolutional neural network to classify
-images in the FMNIST data set, which contains 60,000 28x28 color images of 10 different classes of clothing items.
+images in the FMNIST data set, which contains 70,000 28x28 color images of 10 different classes of clothing items.
 - My code correctly classifies the images in the test set around 90% of the time.
 - Here is a link to information about the dataset: https://pytorch.org/vision/stable/generated/torchvision.datasets.FashionMNIST.html
 - I use the pytorch library for the implementation of this project.
