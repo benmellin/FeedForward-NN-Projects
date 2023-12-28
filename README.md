@@ -6,7 +6,7 @@
 
 ### Heart_disease_pred
 - The goal of this project is to create a neural network to predict if a patient has heart disease, based on some clinical features.
-- Here is a link to the dataset: https://archive.ics.uci.edu/dataset/45/heart+disease
+- [Here is a link to the dataset] (https://archive.ics.uci.edu/dataset/45/heart+disease)
 - I use the pytorch library for the implementation of this project.
 - My NN performs with around 80% accuracy after training on the dev and test sets.
 - I believe that accuracy could be higher if I simplified some of the metaparamaters of this network (remove node dropout and L2 regularization),
@@ -16,46 +16,7 @@ but I wanted practice implementing both of these features.
 - The goal of this project is to create a deep learning network that predicts values for missing data.
 - I randomly remove values from the residual sugar column of the UCI machine learning repository wine data set, and attempt to use deep learning to predict these values.
 - I use the pytorch library for the implementation of this project.
-- This is the link to the data I will be using: https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv
+- [This is the link to the data I will be using] (https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv)
 - My NN usually achieves an R value of at least .9, but it depends on the data that is being predicted and how the weights are initialized.
 
-### Cifar10 autoencoder
-- The goal of this project is to create a convolutional neural network autoencoder for the CIFAR10 dataset, with a pre-specified architecture.
-- Here is a link to the dataset: https://www.cs.toronto.edu/~kriz/cifar.html.
-- I use the pytorch library for the implementation of this project.
-- This is my unique solution to a project created for Mike X Cohen's "A Deep Understanding of Deep Learning" class.
-- Much of the code is adapted from this course.
-- Images that have been pushed through the autoencoder can be seen at the bottom of the file.
-- To best preserve the integrity of this notebook, I've attached the link below instead of posting it here directly:
-https://colab.research.google.com/drive/1mj6U9gSiMDmXaoDH4HbwY_ngvN9GHOBa?usp=sharing
 
-### Classify Cifar 10
-- The goal of this project is to create a convolutional neural network to classify
-images in the CIFAR 10 data set, which contains 60,000 32x32 color images of 10 different classes.
-- My code correctly classifies the images in the test set 81% of the time.
-- Here is a link to the dataset: https://www.cs.toronto.edu/~kriz/cifar.html
-- I use the pytorch library for the implementation of this project.
-- This is my unique solution to a project created for Mike X Cohen's "A Deep Understanding of Deep Learning" class.
-- Much of the code is adapted from this course.
-- To best preserve the integrity of this notebook, I've attached the link below instead of posting it here directly:
-https://colab.research.google.com/drive/1971Y4V0eTrZaIhJsBzaKNyLXa_sd8uOB?usp=sharing
-
-### Classify FMNIST
-- The goal of this project is to create a convolutional neural network to classify
-images in the FMNIST data set, which contains 70,000 28x28 color images of 10 different classes of clothing items.
-- My code correctly classifies the images in the test set around 90% of the time.
-- Here is a link to information about the dataset: https://pytorch.org/vision/stable/generated/torchvision.datasets.FashionMNIST.html
-- I use the pytorch library for the implementation of this project.
-- This is my unique solution to a project created for Mike X Cohen's "A Deep Understanding of Deep Learning" class.
-- Much of the code is adapted from this course.
-- To best preserve the integrity of this notebook, I've attached the link below instead of posting it here directly:
-https://colab.research.google.com/drive/1TRw6bPWi5lAuNLyPGPBrx7v4FwyLz3th?usp=sharing
-
-### Psychometric Functions
-- In this project, I will train a convolutional neural network on Gaussian noise with horizontal or vertical lines.
-- The neural network will learn to classify the Gaussian noise based on whether they have horizontal or vertical lines.
-- Then, I will give the trained network Gaussian noise with lines that are not perfectly horizontal or vertical, and see how the network does.
-- This is my unique solution to a problem from Mike X Cohen's a Deep Understanding of Deep Learning Course.
-- Much of the code is adapted from this course.
-- To best preserve the integrity of this notebook, I've attached the link below instead of posting it here directly:
-https://colab.research.google.com/drive/1qrz7N6MREYYKZ2z3Rb6ItKd1OOqZ7Ya8?usp=sharing
