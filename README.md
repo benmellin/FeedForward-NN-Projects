@@ -1,5 +1,5 @@
-# NN-projects
-## This repository contains jupyter notebook files from my class on Neural Networks
+# FeedForward-NN-projects
+## This repository contains a couple projects from my class on Neural Networks
 - The class is Mike X Cohen's "A Deep Understanding of Deep Learning"
 - The projects in here are my unique solutions to projects from the class.
 - Much of the code has been adapted from the class.
