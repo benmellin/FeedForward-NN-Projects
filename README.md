@@ -1,9 +1,10 @@
 # Missing Data Prediction
-#### - The goal of this project is to create a deep learning network that predicts values for missing data.
-#### - I will randomly remove values from the residual sugar column of the UCI machine learning repository wine data set, and attempt to use deep learning to predict these values
-#### - This project was designed by Mike X Cohen for his Deep Understanding of Deep Learning Course.
-#### - This is my unique solution to this project. Much of the code for this project has been adapted from this course.
-#### - This is the link to the data I will be using: https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv
+- The goal of this project is to create a deep learning network that predicts values for missing data.
+- I will randomly remove values from the residual sugar column of the [UCI machine learning repository wine data set](https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv), and attempt to use deep learning to predict these values.
+- This project was designed by Mike X Cohen for his Deep Understanding of Deep Learning Course.
+- This is my unique solution to this project. Much of the code for this project has been adapted from this course.
+- My NN usually achieves an R value of at least .9, but it depends on the data that is being predicted and how the weights are initialized.
+
 
 
 ```python
@@ -55,10 +56,10 @@ plt.show()
 
 
     
-![svg](/Users/benjaminmellin/Desktop/Teststuff/Convert/Missing_data_pred_2_0.svg)
+![svg](images/Missing_data_pred_2_0.svg)
     
 
-
+## Remove data
 
 ```python
 # Now I will randomly remove 10 values from residual sugar column
@@ -100,7 +101,7 @@ test_loader  = DataLoader(test_dataDataset,batch_size=test_dataDataset.tensors[0
 
 ```
 
-
+## Build the model
 ```python
 # create a class for the model
 def createTheWineNet():
@@ -136,7 +137,7 @@ def createTheWineNet():
     return net,lossfun,optimizer
 ```
 
-
+## Check the untrained network
 ```python
 #run some fake data to make sure it works properly
 wnet,lossf,opt = createTheWineNet()
@@ -171,7 +172,7 @@ wnet(input)
 
 
 
-
+## Train the model
 ```python
 # a function that trains the model
 
@@ -234,7 +235,7 @@ trainLoss,testLoss,winenet = trainTheModel()
       return F.mse_loss(input, target, reduction=self.reduction)
 
 
-
+## Check out results
 ```python
 # plot some results
 # This plotting code was adapted from Mike X Cohen's Code Challenge: Predict Sugar in his A Deep Understanding of Deep Learning Course
@@ -270,6 +271,6 @@ plt.show()
 
 
     
-![svg](/Users/benjaminmellin/Desktop/Teststuff/Convert/Missing_data_pred_9_0.svg)
+![svg](images/Missing_data_pred_9_0.svg)
     
 
